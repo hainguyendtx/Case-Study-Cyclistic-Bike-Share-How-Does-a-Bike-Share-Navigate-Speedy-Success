@@ -1,4 +1,4 @@
-# Case-Study-Cyclistic-Bike-Share
+# Case Study: Cyclistic-Bike-Share
 How Does a Bike-Share Navigate Speedy Success?
 
 By Hai Nguyen 
@@ -50,13 +50,18 @@ SSMS is being used to clean and combine all the datasets into one dataset since 
 ### Exploring/Combining Datasets/Data Cleaning
 
 After exploring our datasets, datasets are combined with only columns that has information needed for our analysis, as well as adding a column for ride length durations.
+
 [(Query here)](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/edit/main/Combining%20Data.sql)
 
-Null or duplicates values identified and remove if neccasary. [(Query here)](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/blob/main/Cleaning%20Data.sql)
+Null or duplicates values identified and remove if neccasary. 
+
+[(Query here)](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/blob/main/Cleaning%20Data.sql)
 
 # Analyze
 
-Data has now been stored appropriately and is now ready for analysis. Multiple tables were queried for our analysis, and Tableau is used to visualize them. [(Query here)](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/blob/main/Analyze%20Data.sql)
+Data has now been stored appropriately and is now ready for analysis. Multiple tables were queried for our analysis, and Tableau is used to visualize them. 
+
+[(Query here)](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/blob/main/Analyze%20Data.sql)
 
 ![image](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/assets/157367308/2c11b53e-dace-41ef-af5c-4e46db2fcb63)
 
