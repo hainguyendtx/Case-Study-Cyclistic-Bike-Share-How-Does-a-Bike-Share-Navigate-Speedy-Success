@@ -1,6 +1,6 @@
 --- Combining and creating new table
 
---- Combining all datasets into one with columns needed for analysis, then it is saved as a new CSV
+--- Combining all datasets into one with columns needed for analysis, and adding new column for ride_length, then it is saved as a new CSV
 
 SELECT
 	ride_id,
