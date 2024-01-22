@@ -4,13 +4,13 @@
 SELECT *
 FROM dbo.cyclistic_biketrips_2023_cleaned
 WHERE
-ride_id IS NULL
-OR rideable_type IS NULL
-OR started_at IS NULL
-OR ended_at IS NULL
-OR start_station_name IS NULL
-OR ended_station_name IS NULL
-OR member_casual IS NULL
+  ride_id IS NULL
+  OR rideable_type IS NULL
+  OR started_at IS NULL
+  OR ended_at IS NULL
+  OR start_station_name IS NULL
+  OR ended_station_name IS NULL
+  OR member_casual IS NULL
 
 --- Checking for duplicate values
 SELECT *, COUNT(*)
