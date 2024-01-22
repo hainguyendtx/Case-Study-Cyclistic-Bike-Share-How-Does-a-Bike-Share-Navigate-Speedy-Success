@@ -45,7 +45,7 @@ There are 12 CSV files with naming conventions of YYYYMM-divvy-tripdata and each
 
 # Process
 
-SSMS is being used to clean and combine all the datasets into one dataset since a worksheet programs like Microsoft Excel aren't able to manage the large amount of datas we have . Tableau will be used for visualization.
+SSMS is being used to clean and combine all the datasets into one dataset since a worksheet programs like Microsoft Excel aren't able to manage the large amount of datas we have .Tableau will be used for visualization.
 
 ### Exploring/Combining Datasets/Data Cleaning
 
