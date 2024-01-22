@@ -47,9 +47,18 @@ There are 12 CSV files with naming conventions of YYYYMM-divvy-tripdata and each
 
 SSMS is being used to clean and combine all the datasets into one dataset since a worksheet programs like Microsoft Excel aren't able to manage the large amount of datas we have . Tableau will be used for visualization.
 
-### Exploring/Combining Datasets [(Query here)](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/edit/main/Combining%20Data.sql)
+### Exploring/Combining Datasets/Data Cleaning
 
 After exploring our datasets, datasets are combined with only columns that has information needed for our analysis, as well as adding a column for ride length durations.
+[(Query here)](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/edit/main/Combining%20Data.sql)
+
+Null or duplicates values identied and removed if neccasary. [(Query here)](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/blob/main/Cleaning%20Data.sql)
+
+# Analyze
+
+Data has now been stored appropriately and is now ready for analysis. Multiple tables were queried for our analysis, and Tableau is used to visualize them. [(Query here)](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/blob/main/Analyze%20Data.sql)
+
+
 
 
 
