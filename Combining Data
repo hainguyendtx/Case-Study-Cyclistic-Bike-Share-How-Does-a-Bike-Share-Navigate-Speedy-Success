@@ -143,6 +143,7 @@ SELECT
 FROM dbo.December
 
 --- Create new table through object explorer with respective column names and data types then BULK INSERT new CSV into that table
+--- BULK INSERT was used here since we ran into memory issues
 BULK INSERT dbo.cyclistic_biketrips_2023_cleaned
 	FROM 'C:\DA Case Study\Cyclistic Bike Case Study\cyclistic_biketrips_2023_cleaned.csv'
 	WITH
