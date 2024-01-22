@@ -52,7 +52,7 @@ SSMS is being used to clean and combine all the datasets into one dataset since 
 After exploring our datasets, datasets are combined with only columns that has information needed for our analysis, as well as adding a column for ride length durations.
 [(Query here)](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/edit/main/Combining%20Data.sql)
 
-Null or duplicates values identied and removed if neccasary. [(Query here)](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/blob/main/Cleaning%20Data.sql)
+Null or duplicates values identified and remove if neccasary. [(Query here)](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/blob/main/Cleaning%20Data.sql)
 
 # Analyze
 
