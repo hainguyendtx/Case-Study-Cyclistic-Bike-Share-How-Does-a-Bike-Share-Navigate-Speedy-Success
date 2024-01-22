@@ -1,3 +1,5 @@
+--- Combining and creating new table
+
 --- Combining all datasets into one with columns needed for analysis, then it is saved as a new CSV
 SELECT 
 	ride_id,
