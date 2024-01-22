@@ -145,8 +145,9 @@ SELECT
 FROM dbo.December
 
 --- Create new table through object explorer with respective column names and data types then BULK INSERT new CSV into that table
+--- BULK INSERT used here due to memory issues when importing new CSV into SSMS
 BULK INSERT dbo.cyclistic_biketrips_2023
-	FROM 'C:\Data Analytics\Cyclistic Case Study\cyclistic_biketrips_2023.csv'
+	FROM 'C:\Data Analytics\Cyclistic Case Study\cyclistic_biketrips_2023_cleaned.csv'
 	WITH
 	(
 		FIELDTERMINATOR = ',',
