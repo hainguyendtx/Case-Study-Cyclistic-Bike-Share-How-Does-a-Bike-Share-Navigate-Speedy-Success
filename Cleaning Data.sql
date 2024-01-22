@@ -1,6 +1,7 @@
 --- Checking for null or duplicate values, remove if necassary
 
 --- Checking for null values
+
 SELECT *
 FROM dbo.cyclistic_biketrips_2023_cleaned
 WHERE
@@ -13,6 +14,7 @@ WHERE
   OR member_casual IS NULL
 
 --- Checking for duplicate values
+
 SELECT *, COUNT(*)
 FROM dbo.cyclistic_biketrips_2023_cleaned
 GROUP BY ride_id, rideable_type, started_at, ended_at, start_station_name, ended_station_name, member_casual
