@@ -36,12 +36,15 @@ FROM dbo.cyclistic_biketrips_2023_cleaned
 GROUP BY member_casual, DATEPART(HOUR, started_at)
 ORDER BY COUNT(ride_id) DESC;
 
-    --- Calculate average ride length
+    --- Average duration of rides for each hour of the day
 
-SELECT member_casual, AVG(ride_length) as avg_ride_length
+SELECT 
+    DATENAME(HOUR, started_at) AS day_of_week,
+    member_casual,
+    AVG(ride_length) as avg_duration
 FROM dbo.cyclistic_biketrips_2023_cleaned
-GROUP BY member_casual
-
+GROUP BY DATENAME(HOUR, started_at), member_casual
+  
     --- Average duration of rides for each day of the week
 
 SELECT 
