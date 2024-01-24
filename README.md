@@ -45,27 +45,31 @@ There are 12 CSV files with naming conventions of YYYYMM-divvy-tripdata and each
 
 # Process
 
-SSMS is being used to clean and combine all the datasets into one dataset since a worksheet programs like Microsoft Excel aren't able to manage the large amount of datas we have .Tableau will be used for visualization.
+SSMS is being used to clean and combine all the datasets into one dataset since a worksheet programs like Microsoft Excel aren't able to manage the large amount of datas we have. Tableau will be used for visualization.
 
 ### Exploring/Combining Datasets/Data Cleaning
 
-After exploring our datasets, datasets are combined with only columns that has information needed for our analysis, as well as adding a column for ride length durations.
+After exploring our datasets, we combine them, retaining only the columns that contain information needed for our analysis. Additionally, a column for ride length durations is added.
+[(Query)](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/edit/main/Combining%20Data.sql)
 
-[(Query here)](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/edit/main/Combining%20Data.sql)
-
-Null or duplicates values identified and remove if neccasary. 
-
-[(Query here)](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/blob/main/Cleaning%20Data.sql)
+Null or duplicate values are identified and removed if necessary.[(Query)](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/blob/main/Cleaning%20Data.sql)
 
 # Analyze
 
 Data has now been stored appropriately and is now ready for analysis. Multiple tables were queried for our analysis, and Tableau is used to visualize them. 
+[(Query)](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/blob/main/Analyze%20Data.sql)
 
-[(Query here)](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/blob/main/Analyze%20Data.sql)
+The total percentage of members and casual riders is analyzed and visualized to provide a broad understanding of the differences between the two groups. Additionally, the total percentage of casual and member riders using each specific bike type is examined
 
 ![image](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/assets/157367308/2c11b53e-dace-41ef-af5c-4e46db2fcb63)
 
+Members account for 64% of our rides, while casual riders make up the remaining 36%. This information is valuable as it allows us to later assess the effectiveness of our marketing strategy in increasing the percentage of member rides. Among member riders, the utilization of classic bikes and electric bikes is nearly identical. In contrast, casual riders exhibit a similar pattern to members, with electric bike utilization approximately 10% higher than classic bikes. Additionally, casual riders have a small percentage of rides involving docked bikes.
 
+The number of trips is examined with consideration given to multiple time factors, providing a more in-depth analysis of specific usage patterns between members and casual riders.
+
+![image](https://github.com/hainguyendtx/Case-Study-Cyclistic-Bike-Share-How-Does-a-Bike-Share-Navigate-Speedy-Success/assets/157367308/466f6a5c-f3f5-412d-a8a7-be01f7295b9e)
+
+Casuals and members' total number of rides exhibit comparable behavior in terms of seasonality, peaking during warmer months. Regarding day and hour frequencies, casuals experience an increase during weekends and a lower steady rate during weekdays. The number of rides for casuals consistently increases through each hour of the day until it peaks during the 16:00-18:00 hours, after which it decreases. On the other hand, members show the opposite pattern with a higher steady rate during weekdays and a decrease during weekends. Members' rides peak during the 7:00-9:00 hours and 16:00-18:00 hours.
 
 
 
